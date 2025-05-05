@@ -1,0 +1,131 @@
+.yellow {
+    color: #f9e2af;
+}
+.blue {
+    color: #89b4fa;
+}
+.red {
+    color: #f38ba8;
+}
+.sidebar {
+    height: 100%; /* Set the height of the sidebar */
+    width: 180px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed stays in place on scroll */
+    z-index: 1; /* Stay on top of text */
+    top: 0; /* Stay at the top page */
+    left: 0;
+    background-color: #11111B; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* The navigation menu links */
+.sidebar a {
+    padding: 4px 8px 4px 10px;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    transition: background-color 0.3s;
+}
+.sidebar a:hover {
+    background-color: #7f849c;
+}
+details {
+    color: #CDD6F4;
+    padding: 4px 8px 4px 10px;
+}
+/* Style page content */
+body {
+    background-color: #1E1E2E;
+    font-family: "JetBrains Mono";
+}
+.content {
+    margin-left: 180px; /* Same as the width of the sidebar */
+    color: #CDD6F4;
+}
+a {
+    color: #89b4fa;
+}
+h1 {
+    text-align: center;
+}
+.hero-card {
+    display: inline-block;
+    width: 226px;
+    height: 410px;
+    border: 2px solid;
+    background-color: #181825;
+    margin-bottom: 10px;
+}
+.hero-card p {
+    margin-top: 0px;
+    text-align: center;
+    text-decoration: none;
+    color: #CDD6F4;
+}
+.page-break {
+    font-size: 26px;
+    background-color: #2b5caa;
+}
+.header {
+    background-color: #4a6076;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #CDD6F4;
+  }
+.ability {
+    border-bottom: 1px solid #333;
+    padding: 20px 0;
+    overflow: hidden;
+}
+.ability-icon {
+    float: left;
+    width: 64px;
+    height: 64px;
+    margin-right: 20px;
+    background-color: #11111B;
+    border-radius: 50%;
+}
+.title-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.ultimate {
+    color: #ffd700;
+    font-size: 12px;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+.description {
+    font-size: 14px;
+    color: #ccc;
+    margin-bottom: 10px;
+}
+.details {
+    display: flex;
+    gap: 15px;
+}
+.detail-box {
+    background-color: #11111B;
+    padding: 8px 16px;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.img-header {
+    position: absolute;
+    right: 0%;
+    display: block;
+    background-color: #1E1E2E;
+    padding: 0%;
+    margin: 0%;
+}
